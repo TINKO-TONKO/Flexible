@@ -1,0 +1,34 @@
+div{
+    border-style: solid;
+    margin: 50pt;
+}
+
+.box1 {
+    
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+    padding: 50pt;
+}
+
+.box2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content:space-between;
+    padding: 15pt;
+}
+
+.box3 {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: center;
+    padding-top: 90pt;
+}
+
+.box4 {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: flex-end;
+    padding-right: 125pt;
+    padding-top: 25pt;
+}
